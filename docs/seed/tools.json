@@ -1,0 +1,10 @@
+[
+  { "_id": "tool_wok", "name": "炒锅", "count": 1, "status": "available" },
+  { "_id": "tool_spatula", "name": "锅铲", "count": 1, "status": "available" },
+  { "_id": "tool_knife", "name": "菜刀", "count": 1, "status": "available" },
+  { "_id": "tool_board", "name": "砧板", "count": 1, "status": "available" },
+  { "_id": "tool_bowl", "name": "拌菜碗", "count": 1, "status": "available" },
+  { "_id": "tool_soup_pot", "name": "汤锅", "count": 1, "status": "available" },
+  { "_id": "tool_ladle", "name": "汤勺", "count": 1, "status": "available" }
+]
+

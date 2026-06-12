@@ -1,0 +1,222 @@
+[
+  {
+    "_id": "recipe_cola_chicken_wings",
+    "dishId": "dish_cola_chicken_wings",
+    "materials": [
+      { "name": "鸡翅中", "amount": 6, "unit": "个" },
+      { "name": "姜", "amount": 8, "unit": "g" },
+      { "name": "小葱", "amount": 8, "unit": "g" }
+    ],
+    "seasonings": [
+      { "name": "可乐", "amount": 250, "unit": "ml" },
+      { "name": "生抽", "amount": 10, "unit": "ml" },
+      { "name": "老抽", "amount": 5, "unit": "ml" },
+      { "name": "料酒", "amount": 8, "unit": "ml" },
+      { "name": "大豆油", "amount": 10, "unit": "ml" }
+    ],
+    "tools": [
+      { "name": "炒锅" },
+      { "name": "锅铲" },
+      { "name": "菜刀" },
+      { "name": "砧板" }
+    ],
+    "steps": [
+      "鸡翅洗净，两面划刀。",
+      "姜切片，小葱切段。",
+      "锅中倒入大豆油，鸡翅煎至两面微黄。",
+      "加入姜葱、料酒、生抽、老抽翻匀。",
+      "倒入可乐，没过鸡翅一半。",
+      "中小火焖煮15到20分钟。",
+      "大火收汁，装盘。"
+    ]
+  },
+  {
+    "_id": "recipe_potato_pork",
+    "dishId": "dish_potato_pork",
+    "materials": [
+      { "name": "土豆", "amount": 2, "unit": "个" },
+      { "name": "猪肉", "amount": 150, "unit": "g" },
+      { "name": "青椒", "amount": 1, "unit": "个" },
+      { "name": "蒜瓣", "amount": 2, "unit": "瓣" },
+      { "name": "小葱", "amount": 5, "unit": "g" }
+    ],
+    "seasonings": [
+      { "name": "盐", "amount": 2, "unit": "g" },
+      { "name": "生抽", "amount": 8, "unit": "ml" },
+      { "name": "蚝油", "amount": 6, "unit": "ml" },
+      { "name": "料酒", "amount": 5, "unit": "ml" },
+      { "name": "大豆油", "amount": 20, "unit": "ml" }
+    ],
+    "tools": [
+      { "name": "炒锅" },
+      { "name": "锅铲" },
+      { "name": "菜刀" },
+      { "name": "砧板" }
+    ],
+    "steps": [
+      "土豆去皮切片或切条，清水冲掉表面淀粉。",
+      "猪肉切片，加料酒和少量生抽抓匀。",
+      "青椒切块，蒜瓣切末，小葱切段。",
+      "热锅倒油，先炒猪肉至变色盛出。",
+      "锅中留油，下蒜末和土豆翻炒至断生。",
+      "倒回猪肉，加入青椒、生抽、蚝油和盐调味。",
+      "翻炒均匀，撒小葱出锅。"
+    ]
+  },
+  {
+    "_id": "recipe_egg_fried_rice",
+    "dishId": "dish_egg_fried_rice",
+    "materials": [
+      { "name": "大米", "amount": 250, "unit": "g" },
+      { "name": "鸡蛋", "amount": 2, "unit": "个" },
+      { "name": "胡萝卜", "amount": 1, "unit": "根" },
+      { "name": "玉米粒", "amount": 50, "unit": "g" },
+      { "name": "小葱", "amount": 8, "unit": "g" }
+    ],
+    "seasonings": [
+      { "name": "盐", "amount": 2, "unit": "g" },
+      { "name": "生抽", "amount": 5, "unit": "ml" },
+      { "name": "鸡精", "amount": 1, "unit": "g" },
+      { "name": "大豆油", "amount": 15, "unit": "ml" }
+    ],
+    "tools": [
+      { "name": "炒锅" },
+      { "name": "锅铲" },
+      { "name": "菜刀" },
+      { "name": "砧板" }
+    ],
+    "steps": [
+      "提前把大米煮成米饭，放凉更容易炒散。",
+      "鸡蛋打散，胡萝卜切丁，小葱切末。",
+      "热锅倒油，先炒鸡蛋。",
+      "加入胡萝卜丁和玉米粒翻炒。",
+      "加入米饭炒散。",
+      "加盐、生抽和鸡精调味。",
+      "撒小葱，翻炒均匀后出锅。"
+    ]
+  },
+  {
+    "_id": "recipe_crystal_shrimp",
+    "dishId": "dish_crystal_shrimp",
+    "materials": [
+      { "name": "虾滑", "amount": 200, "unit": "g" },
+      { "name": "胡萝卜", "amount": 1, "unit": "根" },
+      { "name": "小葱", "amount": 5, "unit": "g" },
+      { "name": "姜", "amount": 5, "unit": "g" }
+    ],
+    "seasonings": [
+      { "name": "盐", "amount": 1.5, "unit": "g" },
+      { "name": "料酒", "amount": 5, "unit": "ml" },
+      { "name": "鸡精", "amount": 1, "unit": "g" },
+      { "name": "香油", "amount": 2, "unit": "ml" }
+    ],
+    "tools": [
+      { "name": "汤锅" },
+      { "name": "汤勺" },
+      { "name": "菜刀" },
+      { "name": "砧板" }
+    ],
+    "steps": [
+      "胡萝卜切薄片，小葱切末，姜切片。",
+      "锅中烧水，放入姜片和料酒。",
+      "水微开后把虾滑挤成小块下锅。",
+      "加入胡萝卜片煮至虾滑浮起。",
+      "加盐和鸡精调味。",
+      "出锅前滴香油，撒小葱。"
+    ]
+  },
+  {
+    "_id": "recipe_potato_chicken",
+    "dishId": "dish_potato_chicken",
+    "materials": [
+      { "name": "土豆", "amount": 2, "unit": "个" },
+      { "name": "鸡肉", "amount": 200, "unit": "g" },
+      { "name": "青椒", "amount": 1, "unit": "个" },
+      { "name": "洋葱", "amount": 1, "unit": "个" },
+      { "name": "姜", "amount": 5, "unit": "g" },
+      { "name": "蒜瓣", "amount": 2, "unit": "瓣" }
+    ],
+    "seasonings": [
+      { "name": "盐", "amount": 2, "unit": "g" },
+      { "name": "生抽", "amount": 10, "unit": "ml" },
+      { "name": "老抽", "amount": 3, "unit": "ml" },
+      { "name": "料酒", "amount": 8, "unit": "ml" },
+      { "name": "糖", "amount": 2, "unit": "g" },
+      { "name": "大豆油", "amount": 20, "unit": "ml" }
+    ],
+    "tools": [
+      { "name": "炒锅" },
+      { "name": "锅铲" },
+      { "name": "菜刀" },
+      { "name": "砧板" }
+    ],
+    "steps": [
+      "鸡肉切丁，用料酒和生抽抓匀。",
+      "土豆切丁，青椒和洋葱切块。",
+      "姜切丝，蒜瓣切末。",
+      "热锅倒油，炒香姜蒜后下鸡丁。",
+      "鸡丁变色后加入土豆丁翻炒。",
+      "加入生抽、老抽、糖和少量水焖至土豆变软。",
+      "加入青椒和洋葱，盐调味后收汁出锅。"
+    ]
+  },
+  {
+    "_id": "recipe_sweet_sour_cabbage",
+    "dishId": "dish_sweet_sour_cabbage",
+    "materials": [
+      { "name": "娃娃菜", "amount": 1, "unit": "颗" },
+      { "name": "蒜瓣", "amount": 2, "unit": "瓣" },
+      { "name": "小米辣", "amount": 5, "unit": "g" }
+    ],
+    "seasonings": [
+      { "name": "盐", "amount": 1.5, "unit": "g" },
+      { "name": "生抽", "amount": 6, "unit": "ml" },
+      { "name": "醋", "amount": 12, "unit": "ml" },
+      { "name": "糖", "amount": 8, "unit": "g" },
+      { "name": "大豆油", "amount": 12, "unit": "ml" }
+    ],
+    "tools": [
+      { "name": "炒锅" },
+      { "name": "锅铲" },
+      { "name": "菜刀" },
+      { "name": "砧板" }
+    ],
+    "steps": [
+      "娃娃菜洗净切段，菜帮和菜叶分开放。",
+      "蒜瓣切末，小米辣切圈。",
+      "调一碗糖醋汁：醋、糖、生抽和少量盐拌匀。",
+      "热锅倒油，炒香蒜末和小米辣。",
+      "先下菜帮翻炒，再下菜叶。",
+      "倒入糖醋汁，大火快速翻炒。",
+      "菜叶变软后出锅。"
+    ]
+  },
+  {
+    "_id": "recipe_steamed_sea_bass",
+    "dishId": "dish_steamed_sea_bass",
+    "materials": [
+      { "name": "鲈鱼", "amount": 1, "unit": "条" },
+      { "name": "姜", "amount": 10, "unit": "g" },
+      { "name": "小葱", "amount": 10, "unit": "g" }
+    ],
+    "seasonings": [
+      { "name": "盐", "amount": 1, "unit": "g" },
+      { "name": "生抽", "amount": 12, "unit": "ml" },
+      { "name": "料酒", "amount": 8, "unit": "ml" },
+      { "name": "大豆油", "amount": 15, "unit": "ml" }
+    ],
+    "tools": [
+      { "name": "汤锅" },
+      { "name": "菜刀" },
+      { "name": "砧板" }
+    ],
+    "steps": [
+      "鲈鱼处理干净，两面划刀。",
+      "用料酒和少量盐抹匀，铺上姜丝。",
+      "水开后上锅蒸8到10分钟。",
+      "倒掉盘中腥水，铺上葱丝。",
+      "淋生抽。",
+      "烧热大豆油后浇在葱丝上。"
+    ]
+  }
+]
