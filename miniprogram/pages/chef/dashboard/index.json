@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "厨师工作台",
-  "usingComponents": {
-    "order-card": "../../../components/order-card/index"
-  }
-}
-
