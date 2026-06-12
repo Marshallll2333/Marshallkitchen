@@ -1,0 +1,10 @@
+.label {
+  color: #826959;
+  margin-bottom: 12rpx;
+}
+
+.actions {
+  display: grid;
+  gap: 16rpx;
+}
+

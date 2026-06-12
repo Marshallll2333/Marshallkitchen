@@ -1,0 +1,14 @@
+.label {
+  color: #826959;
+  font-size: 24rpx;
+  margin-bottom: 12rpx;
+}
+
+.space {
+  margin-top: 26rpx;
+}
+
+.steps {
+  min-height: 260rpx;
+}
+

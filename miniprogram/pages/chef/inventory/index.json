@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "库存管理",
+  "usingComponents": {
+    "stock-item": "../../../components/stock-item/index"
+  }
+}
+

@@ -1,0 +1,36 @@
+<view class="page">
+  <view class="between">
+    <view>
+      <view class="page-title">厨师工作台</view>
+      <view class="page-subtitle">她点了什么、你做到哪一步，都在这里。</view>
+    </view>
+    <button class="btn small ghost" bindtap="goProfile">我的</button>
+  </view>
+
+  <view class="section stats">
+    <view class="stat">
+      <text>{{summary.submitted}}</text>
+      <view>待接单</view>
+    </view>
+    <view class="stat">
+      <text>{{summary.cooking}}</text>
+      <view>制作中</view>
+    </view>
+    <view class="stat">
+      <text>{{summary.ready}}</text>
+      <view>可出餐</view>
+    </view>
+  </view>
+
+  <view class="section actions">
+    <button class="btn small ghost" bindtap="goInventory">库存</button>
+    <button class="btn small ghost" bindtap="goDishes">菜品</button>
+    <button class="btn small ghost" bindtap="goCustomerPreview">顾客端预览</button>
+  </view>
+
+  <view class="section">
+    <order-card wx:for="{{orders}}" wx:key="_id" order="{{item}}" role="chef" bind:taporder="openOrder"></order-card>
+    <view wx:if="{{!orders.length}}" class="empty">今天还没有新订单。</view>
+  </view>
+</view>
+

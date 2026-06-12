@@ -1,0 +1,35 @@
+.order-card {
+  padding: 24rpx;
+  margin-bottom: 18rpx;
+  border-radius: 18rpx;
+  background: #ffffff;
+  border: 1rpx solid #eadfce;
+}
+
+.order-no {
+  font-weight: 700;
+}
+
+.status {
+  color: #2f7d32;
+  font-weight: 600;
+}
+
+.items {
+  margin-top: 16rpx;
+  line-height: 1.6;
+  color: #4a3428;
+}
+
+.remark {
+  margin-top: 12rpx;
+  color: #826959;
+  line-height: 1.5;
+}
+
+.footer {
+  margin-top: 18rpx;
+  color: #8d7666;
+  font-size: 24rpx;
+}
+

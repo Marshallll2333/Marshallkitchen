@@ -1,0 +1,21 @@
+.hero {
+  text-align: center;
+}
+
+.lock {
+  font-size: 78rpx;
+  margin-bottom: 18rpx;
+}
+
+.label {
+  color: #826959;
+  font-size: 24rpx;
+  margin-bottom: 10rpx;
+}
+
+.openid {
+  word-break: break-all;
+  line-height: 1.5;
+  font-weight: 700;
+}
+

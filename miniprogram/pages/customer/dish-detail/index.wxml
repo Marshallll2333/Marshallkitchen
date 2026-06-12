@@ -1,0 +1,38 @@
+<view class="page" wx:if="{{dish}}">
+  <view class="dish-hero">
+    <image wx:if="{{dish.imageUrl}}" class="dish-photo" src="{{dish.imageUrl}}" mode="aspectFill"></image>
+    <view wx:else class="dish-emoji">{{dish.emoji || '🍳'}}</view>
+    <view class="page-title">{{dish.name}}</view>
+    <view class="page-subtitle">{{dish.description}}</view>
+    <view class="between meta">
+      <text class="price">￥{{dish.price}}</text>
+      <text>约 {{dish.cookTime}} 分钟</text>
+    </view>
+  </view>
+
+  <view class="section panel">
+    <view class="section-title">口味选择</view>
+    <text wx:for="{{tasteOptions}}" wx:key="*this" class="tag {{selectedTasteMap[item] ? 'active' : ''}}" data-taste="{{item}}" bindtap="toggleTaste">{{item}}</text>
+  </view>
+
+  <view class="section panel">
+    <view class="section-title">悄悄备注</view>
+    <textarea class="textarea" placeholder="例如：今天想吃酸一点，少放葱" value="{{remark}}" bindinput="onRemarkInput"></textarea>
+  </view>
+
+  <view class="section panel">
+    <view class="between">
+      <text class="section-title">数量</text>
+      <view class="qty">
+        <button class="btn small ghost" data-delta="-1" bindtap="adjustQuantity">-</button>
+        <text>{{quantity}}</text>
+        <button class="btn small" data-delta="1" bindtap="adjustQuantity">+</button>
+      </view>
+    </view>
+  </view>
+
+  <view class="bottom-bar">
+    <view>{{dish.name}} × {{quantity}}</view>
+    <button class="btn small" bindtap="addToCart">加入点菜单</button>
+  </view>
+</view>

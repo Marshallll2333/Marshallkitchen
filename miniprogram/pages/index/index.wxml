@@ -1,0 +1,7 @@
+<view class="page splash">
+  <view class="logo">🍳</view>
+  <view class="page-title">专属小厨房</view>
+  <view class="page-subtitle">正在确认今天由谁来点菜、谁来做饭。</view>
+  <button wx:if="{{failed}}" class="btn section" bindtap="login">重新进入</button>
+</view>
+

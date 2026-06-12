@@ -1,0 +1,22 @@
+.splash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 120rpx;
+}
+
+.logo {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 28rpx;
+  background: #ffffff;
+  font-size: 84rpx;
+  box-shadow: 0 16rpx 46rpx rgba(74, 52, 40, 0.12);
+}
+

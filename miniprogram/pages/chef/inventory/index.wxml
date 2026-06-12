@@ -1,0 +1,27 @@
+<view class="page">
+  <view class="page-title">库存管理</view>
+  <view class="page-subtitle">材料、调味料和工具状态会影响她能点哪些菜。</view>
+
+  <view class="section tabs">
+    <text wx:for="{{tabs}}" wx:key="key" class="tag {{activeTab === item.key ? 'active' : ''}}" data-key="{{item.key}}" bindtap="switchTab">{{item.label}}</text>
+  </view>
+
+  <view wx:if="{{activeTab === 'materials'}}" class="section panel">
+    <stock-item wx:for="{{materials}}" wx:key="_id" item="{{item}}" target-type="material" bind:adjust="adjustStock"></stock-item>
+  </view>
+
+  <view wx:if="{{activeTab === 'seasonings'}}" class="section panel">
+    <stock-item wx:for="{{seasonings}}" wx:key="_id" item="{{item}}" target-type="seasoning" bind:adjust="adjustStock"></stock-item>
+  </view>
+
+  <view wx:if="{{activeTab === 'tools'}}" class="section panel">
+    <view wx:for="{{tools}}" wx:key="_id" class="tool-row">
+      <view>
+        <view class="name">{{item.name}}</view>
+        <view class="muted">数量 {{item.count}} · {{item.status === 'available' ? '可用' : '不可用'}}</view>
+      </view>
+      <button class="btn small {{item.status === 'available' ? 'danger' : ''}}" data-id="{{item._id}}" data-status="{{item.status}}" bindtap="toggleTool">{{item.status === 'available' ? '停用' : '启用'}}</button>
+    </view>
+  </view>
+</view>
+

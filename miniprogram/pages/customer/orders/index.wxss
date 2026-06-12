@@ -1,0 +1,14 @@
+.current {
+  background: #fff3e5;
+}
+
+.status {
+  color: #2f7d32;
+  font-weight: 700;
+}
+
+.items {
+  margin-top: 18rpx;
+  line-height: 1.7;
+}
+

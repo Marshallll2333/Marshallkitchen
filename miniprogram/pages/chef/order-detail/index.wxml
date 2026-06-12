@@ -1,0 +1,38 @@
+<view class="page" wx:if="{{order}}">
+  <view class="panel">
+    <view class="between">
+      <view>
+        <view class="page-title">#{{order.orderNo}}</view>
+        <view class="page-subtitle">{{order.statusText}} · {{order.createdAtText}}</view>
+      </view>
+      <text class="price">￥{{order.totalPrice}}</text>
+    </view>
+  </view>
+
+  <view class="section panel">
+    <view class="section-title">她点了</view>
+    <view wx:for="{{order.items}}" wx:key="cartKey" class="dish-row">
+      <view>
+        <view class="name">{{item.name}} × {{item.quantity}}</view>
+        <view class="muted">{{item.tasteOptionsText || '正常口味'}}</view>
+        <view wx:if="{{item.remark}}" class="muted">备注：{{item.remark}}</view>
+      </view>
+      <button class="btn small ghost" data-dish="{{item.dishId}}" bindtap="editRecipe">配方</button>
+    </view>
+  </view>
+
+  <view class="section panel">
+    <view class="section-title">整单备注</view>
+    <view class="muted">{{order.remark || '没有额外备注'}}</view>
+    <view class="section-title top">期望时间</view>
+    <view>{{order.expectedTime || '现在就吃'}}</view>
+  </view>
+
+  <view class="section actions">
+    <button wx:if="{{order.status === 'SUBMITTED'}}" class="btn" bindtap="acceptOrder">接单</button>
+    <button wx:if="{{order.status === 'SUBMITTED' || order.status === 'ACCEPTED'}}" class="btn secondary" bindtap="startCooking">开始制作</button>
+    <button wx:if="{{order.status === 'COOKING'}}" class="btn" bindtap="openCookDetail">查看做法</button>
+    <button wx:if="{{order.status !== 'READY' && order.status !== 'FINISHED' && order.status !== 'CANCELLED'}}" class="btn danger" bindtap="cancelOrder">取消订单</button>
+  </view>
+</view>
+

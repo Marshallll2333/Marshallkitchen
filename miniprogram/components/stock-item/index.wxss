@@ -1,0 +1,41 @@
+.stock-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16rpx;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #f1e5d5;
+}
+
+.stock-item:last-child {
+  border-bottom: 0;
+}
+
+.name {
+  font-weight: 700;
+  color: #4a3428;
+}
+
+.meta {
+  margin-top: 8rpx;
+  color: #8d7666;
+  font-size: 24rpx;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 10rpx;
+}
+
+.count,
+.low {
+  min-width: 96rpx;
+  text-align: right;
+  font-weight: 700;
+}
+
+.low {
+  color: #e85d45;
+}
+

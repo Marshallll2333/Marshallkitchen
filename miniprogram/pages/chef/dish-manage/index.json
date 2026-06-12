@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "菜品管理",
+  "usingComponents": {
+    "dish-card": "../../../components/dish-card/index"
+  }
+}
+

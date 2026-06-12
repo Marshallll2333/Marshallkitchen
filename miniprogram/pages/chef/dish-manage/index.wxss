@@ -1,0 +1,14 @@
+.space {
+  margin-top: 14rpx;
+}
+
+.toggles {
+  gap: 28rpx;
+  margin-top: 18rpx;
+}
+
+.buttons {
+  gap: 16rpx;
+  margin-top: 22rpx;
+}
+

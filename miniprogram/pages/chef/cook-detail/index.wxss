@@ -1,0 +1,30 @@
+.dish-title {
+  font-size: 34rpx;
+  font-weight: 700;
+}
+
+.notice {
+  margin-top: 18rpx;
+  padding: 16rpx;
+  border-radius: 12rpx;
+  background: #fff3e5;
+  color: #7a4c24;
+  line-height: 1.5;
+}
+
+.block-title {
+  margin-top: 26rpx;
+  margin-bottom: 12rpx;
+  font-weight: 700;
+}
+
+.line,
+.step {
+  line-height: 1.7;
+  color: #4a3428;
+}
+
+.step {
+  margin-bottom: 10rpx;
+}
+

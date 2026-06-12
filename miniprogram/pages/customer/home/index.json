@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "她点菜",
+  "usingComponents": {
+    "dish-card": "../../../components/dish-card/index"
+  }
+}
+
