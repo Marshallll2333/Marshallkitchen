@@ -1,6 +1,6 @@
 # Lucy 的专属小厨房
 
-这是一个给 Lucy 和 Marshall 私用的点菜网站。Lucy 在顾客端登录后点菜，Marshall 在厨师工作台接单、看配方、管理菜品和库存。项目从微信小程序方案转换为可部署到 GitHub Pages 的静态网站，并已经接入实际的 Supabase 数据库、EmailJS 邮件托管系统和 DeepSeek AI API。
+这是一个给 Lucy 和 Marshall 私用的点菜网站。Lucy 在顾客端登录后点菜，Marshall 在厨师工作台接单、看配方、管理菜品和库存。项目为可部署到 GitHub Pages 的静态网站，并已经接入实际的 Supabase 数据库、EmailJS 邮件托管系统和 DeepSeek AI API。
 
 项目目录：
 
@@ -24,17 +24,6 @@ D:\Codex\workspace\智能点菜小程序\gitproject
 ### Supabase 数据库
 
 项目已经配置 Supabase：
-
-```text
-Project URL: https://ycfsqqmotcljqczlqjjw.supabase.co
-```
-
-配置文件：
-
-```text
-config/supabase-config.js
-```
-
 数据库表：
 
 - `kitchen_state`：保存当前厨房的完整业务状态。
@@ -52,17 +41,9 @@ supabase/schema.sql
 
 项目已经配置 EmailJS：
 
-```text
-Service ID: service_zowtrfn
-Template ID: template_iawgyeo
-To Email: mxinyu2003@163.com
-```
 
 配置文件：
 
-```text
-config/email-config.js
-```
 
 提交订单时，网站会调用 EmailJS 发送邮件。邮件中包含订单内容和导入厨师工作台的链接。
 
@@ -88,18 +69,11 @@ Model: deepseek-v4-flash
 
 ### 顾客端
 
-```text
-账号：Lucy
-密码：zamxy
-```
 
 登录状态保存在当前浏览器会话 `sessionStorage`，关闭浏览器后需要重新登录。
 
 ### 厨师工作台
 
-```text
-密码：zazll
-```
 
 厨师登录状态也保存在当前浏览器会话 `sessionStorage`。
 
