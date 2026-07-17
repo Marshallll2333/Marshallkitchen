@@ -1,7 +1,6 @@
 # Lucy 的专属小厨房
 
-这是一个给 Lucy 和 Marshall 私用的点菜网站。Lucy 在顾客端登录后点菜，Marshall 在厨师工作台接单、看配方、管理菜品和库存。项目为可部署到 GitHub Pages 的静态网站，并已经接入实际的 Supabase 数据库、EmailJS 邮件托管系统和 DeepSeek AI API。
-点击链接直接方位： https://marshallll2333.github.io/Marshallkitchen/
+这是一个给 Lucy 和 Marshall 私用的点菜网站。Lucy 在顾客端登录后点菜，Marshall 在厨师工作台接单、看配方、管理菜品和库存。项目为可部署到 GitHub Pages 的静态网站，并已经接入实际的 Supabase 数据库、EmailJS 邮件托管系统和 DeepSeek AI API。点击链接直接访问： https://marshallll2333.github.io/Marshallkitchen/
 
 项目目录：
 
